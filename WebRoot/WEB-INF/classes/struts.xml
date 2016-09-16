@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+
+<struts>
+
+
+<package name="" extends="json-default" namespace="/">
+ 
+<!-- log -->
+    <action name="login" class="org.check.CheckLogin" method="login">
+        <result name="success">/first.jsp</result>
+    </action> 
+    
+    
+    
+    
+    
+    
+    
+    <action name="checklogin" class="org.check.CheckLogin" method="checkLogin">
+        <result name="success">/index.jsp</result>
+    </action> 
+    <action name="check" class="org.check.CheckLogin" >
+        <result name="success">/index.jsp</result>
+    </action>  
+    
+<!-- add -->  
+    <action name="all" class="org.common.AllTable" >
+        <result name="success">/add/add_view.jsp</result>
+    </action> 
+    <action name="add" class="org.add.Add_write" >
+        <result name="success">/add/add_after.jsp</result>
+    </action> 
+
+<!-- delete -->  
+    <action name="all_delete" class="org.common.AllTable" >
+        <result name="success">/delete/delete_view.jsp</result>
+    </action> 
+    <action name="delete" class="org.delete.Delete" >
+        <result name="success">/delete/delete_after.jsp</result>
+    </action> 
+    
+ 
+ <!-- update -->  
+    <action name="all_update" class="org.common.AllTable" >
+        <result name="success">/update/update_view.jsp</result>
+    </action> 
+        
+    <action name="update_temp" class="org.update.Choose" >
+        <result name="success">/update/update_temp.jsp</result>
+    </action> 
+    
+    <action name="update" class="org.update.Update" >
+        <result name="success">/update/update_after.jsp</result>
+    </action> 
+ 
+  <!-- search -->  
+    <action name="simple" class="org.search.SimpleSearch" >
+        <result name="success">/search/search_simple.jsp</result>
+    </action> 
+        
+    <action name="complex" class="org.search.ComplexSearch" >
+        <result name="success">/search/search_complex.jsp</result>
+    </action> 
+    
+ 
+      
+</package>
+
+
+</struts>    

@@ -1,0 +1,81 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+body {margin:0 auto;width:1349px;height:450px; margin:0px; padding:0px; color:#333; font-size:12px;  font-family:Arial, Helvetica, sans-serif; align:center;}
+.headerwrap { margin:0px;width:100%; height:22px; background-color:black; }
+.headerwrapz { margin-top:0px;width:100%; height:30px; background-color:gray; }
+
+.header { width:100%; height:20px; line-height:20px; text-align:right; }
+.header a,.header a:visited { color:#CCCCCC; }
+
+.wrapx { font-size:9px;margin-top:0px;margin-bottom:5px; width:100%;height:54px;background-color:#CFCFCF;float:left;text-align:center;font-family:microsoft Yahei;color:gray; }
+.footerwrapx { font-size:9px;margin-top:10px;margin-bottom:5px; width:100%;height:54px;background-color:#CFCFCF;float:left;text-align:center;font-family:microsoft Yahei;color:gray; }
+ 
+.footerwrapy {  margin-top:0px;width:100%;height:30px;background-color:gray;float:left;text-align:center;font-family:microsoft Yahei;color:gray; }
+.footerwrapz { width:100%;height:15px;background-color:black;float:left;text-align:center;font-family:microsoft Yahei;color:gray; }
+
+
+.sidebar  { width:353px; height:380px; float:left;  margin-left:20px;margin-top:20px;  }
+.sidebar1 { width:100%; height:200px; float:left; background-color:#C3C3C9;   }
+.sidebar li{ width:209px; height:60px; background:url(images/sidebg.jpg) no-repeat; line-height:60px; text-indent:10px; margin-bottom:11px; font-size:18px; position:relative; }
+.sidebar .more { width:39px; height:35px; position:absolute; right:10px; top:25px; }
+
+.sidebar2 { width:100%; height:390px; float:left; background-color:#D1D4D9; margin-top:10px;  }
+
+
+.input {margin-top:5px; height:25px; border-top:2px solid gray; border-bottom:2px solid gray;  width:130px; line-height:30px; border-left:2px solid gray;  border-right:2px solid gray;text-indent:5px;}
+
+.fontt {color:white;}
+
+#toolbar-up { height:38px;width:100%;border-bottom:solid 3px #ABABAB;border-right:solid 3px #D1D4D9;border-left:solid 3px #D1D4D9;border-top:solid 1px rgb(222,216,203);background:#8B7E66; }
+#toolbar-up span{width:107px;height:30px;display:block;float:left;margin-top:8px;margin-left:80px; }
+#toolbar-up  a{font-size:17px;color:black;}
+
+#toolbar-left { height:38px;width:100%;border-bottom:solid 3px #ABABAB;border-right:solid 3px #C2C2C9;border-left:solid 3px #C2C2C2;border-top:solid 1px rgb(222,216,203);background:#8B7E66; }
+#toolbar-left span{width:107px;height:30px;display:block;float:left;margin-top:8px;margin-left:80px; }
+#toolbar-left  a{font-size:17px;color:black;}
+
+#toolbar { height:38px;width:100%;border-bottom:solid 3px #ABABAB;border-right:solid 3px #D1D4D9;border-left:solid 3px #D1D4D9;border-top:solid 1px rgb(222,216,203);background:#8B7E66; }
+#toolbar span{width:107px;height:30px;display:block;float:left;margin-top:8px;margin-left:36px;text-align:center;}
+#toolbar  a{font-size:17px;color:black;}
+
+
+.page {text-align:center;margin-top:25px;font-size:50;margin-left:20px;margin-right:20px;}
+.pagetext {align:center;margin-top:10px;font-size:35;}
+
+
+
+#caption {align:center;width:1200px;overflow:hidden;height: 700px;font-size: 12px;line-height: 25px;margin: 0px;padding: 0px;background: black;}
+
+
+	.tab1 { border:1px solid #000000; margin-top:10px;align:center ; }
+
+	.tab2 { border:1px solid #000000; margin-top:10px;}
+	.tab3 { border:1px solid #000000; margin-top:0px;align:center ;}
+	.tabinput { border:0px;align:center ;  }
+
+
+
+.mima {margin-right:40px;float:right;align:center;}
+
+.control { margin:0 auto;width:1345px;height:450px;}
+.xxx { width:100%; height:230px; background:gray;overflow:hidden;   align:center;float:right;}
+.main1 { width:100%; height:600px; background:#E8E8E8;overflow:hidden; margin-top:6px; align:center;float:right;}
+.main { width:70%; height:600px; background:#E8E8E8;overflow:hidden; margin-top:20px; align:center; margin-right:20px;float:right;}
+.input1 {background-color:#E8E8E8;}
+
+#middle{width:960px;background:rgb(240,240,240);float:left;font-family:micrsoft yahei;margin-top:20px;}
+
+
+#title{
+	text-align:center; 
+	font-size:12px; 
+	line-height:20px;
+	height:20px;
+	font-weight:bold; 
+	 
+	margin:auto;
+}
